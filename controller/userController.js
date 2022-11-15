@@ -40,7 +40,6 @@ controller.getname = async function (req, res) {
 
 controller.createNew = async function (req, res) {
     try {
-        console.log("aacbhjhdcbjbdjdj   dcjnkdcsbk",req.body)
         //   check data has already been created
         const checkData = await model.user.findAll({
         where: {
